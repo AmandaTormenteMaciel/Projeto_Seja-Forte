@@ -20,7 +20,7 @@ Engajamento e Conexão: Facilitar a participação de novos voluntários e parce
 
 Promoção da Autonomia: Oferecer recursos e caminhos para que os beneficiários dos programas desenvolvam a sua autoconfiança e sejam protagonistas de suas histórias.
 
-✨ Funcionalidades do Site
+✨ Funcionalidades do Site:
 
 Página Inicial (index.html): Apresentação empática da ONG, destaque da missão, visão, valores e chamada para ação (CTA).
 
@@ -34,7 +34,7 @@ Informações sobre público-alvo, metas atingidas e como colaborar com cada pro
 
 Central de Contato (contato.html): Formulário interativo para envio de mensagens, dúvidas, sugestões ou pedidos de ajuda.
 
-Facilitador de Apoio via QR Code: Exibição dinâmica de QR Code (qr-code.jpg) para doações diretas ou acesso rápido via dispositivos móveis.
+Facilitador de Apoio via QR Code Simulativo: Exibição dinâmica de QR Code (qr-code.jpg) para doações diretas ou acesso rápido via dispositivos móveis.
 
 Layout Responsivo & Estilização Personalizada (estilos.css): Interface amigável, acessível e adaptada para diferentes tamanhos de tela (mobile e desktop).
 
@@ -46,9 +46,9 @@ O projeto foi construído utilizando tecnologias fundamentais da Web, garantindo
 
 HTML5: Estruturação semântica e acessível de todas as páginas.
 
-CSS3: Estilização customizada (estilos.css), layout responsivo, tipografia e identidade visual acolhedora.
+CSS3: Estilização customizada, layout responsivo, tipografia e identidade visual acolhedora.
 
-JavaScript (ES6+): Scripts dinâmicos (script.js) para interações na página e validações.
+JavaScript (ES6+): Scripts dinâmicos para interações na página e validações.
 
 Assets Multimídia: Imagens ilustrativas (imagem1.jpg, imagem2.jpg, imagem3.jpg) e recurso visual via QR Code (qr-code.jpg).
 
