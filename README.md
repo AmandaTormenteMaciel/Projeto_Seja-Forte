@@ -59,3 +59,14 @@ Como o projeto limita-se estritamente ao ecossistema Front-end (sem dependência
 *   **Imagens utilizadas:** Imagens de caráter ilustrativo obtidas através de busca no Google Imagens e emojis.
 *   **Tipografia:** Família de fontes limpas ('Segoe UI', Tahoma, Verdana).
 *   *Aviso:* Este site é um protótipo estritamente acadêmico. Nenhuma transação financeira real é processada e nenhum dado pessoal preenchido no formulário é armazenado ou transmitido.
+
+*   🚀 Como visualizar o projeto
+Como é um site estático desenvolvido para fins de estudo:
+
+Baixe os arquivos do projeto para o seu computador.
+
+Dê um duplo clique no arquivo index.html.
+
+O site abrirá diretamente no seu navegador de preferência.
+
+(Se estiver usando o VS Code, você pode utilizar a extensão Live Server para visualizar tudo em tempo real).
