@@ -60,7 +60,7 @@ Como o projeto limita-se estritamente ao ecossistema Front-end (sem dependência
 *   **Tipografia:** Família de fontes limpas ('Segoe UI', Tahoma, Verdana).
 *   *Aviso:* Este site é um protótipo estritamente acadêmico. Nenhuma transação financeira real é processada e nenhum dado pessoal preenchido no formulário é armazenado ou transmitido.
 
-*   🚀 Como visualizar o projeto
+## 🚀 Como visualizar o projeto
 Como é um site estático desenvolvido para fins de estudo:
 
 Baixe os arquivos do projeto para o seu computador.
