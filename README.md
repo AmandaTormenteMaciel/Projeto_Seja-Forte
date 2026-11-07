@@ -1,71 +1,83 @@
-# 🤝 ONG Seja Forte — Plataforma Web Institutional
+💜 ONG Seja Forte — Apoio e Empoderamento Feminino
 
-"A nossa força vem do cuidado com o outro. Criamos oportunidades para que cada pessoa se sinta acolhida, ouvida e capaz de transformar a sua própria realidade."
+"A nossa força vem de cuidar umas das outras. Aqui a gente se junta para acolher, escutar e dar aquela força para que cada mulher possa transformar a sua própria história!"
 
-📌 Sobre o Projeto
+⚠️ Nota Importante: Este é um projeto acadêmico sem fins lucrativos, desenvolvido com fins educacionais para demonstrar a criação de uma aplicação web completa voltada a causas sociais.
 
-A ONG Seja Forte é uma iniciativa dedicada a promover a transformação social, a inclusão e o fortalecimento de comunidades em situação de vulnerabilidade.
+💡 Sobre o Projeto
 
-A plataforma web foi desenvolvida com o objetivo de conectar pessoas, dar visibilidade a causas sociais e facilitar o apoio comunitário. Por meio de uma navegação simples, clara e acolhedora, o site aproxima voluntários, doadores e beneficiários, oferecendo um espaço transparente para divulgação de projetos, histórias de impacto e canais diretos de contato.
+A ONG Seja Forte é uma iniciativa fictícia criada no ambiente acadêmico com um propósito especial: apoiar, acolher e empoderar mulheres em situação de vulnerabilidade.
 
-🎯 Objetivo do Projeto
+Criamos este site para ser um ponto de encontro simples, bonito e acolhedor. É por aqui que a gente conecta voluntárias e apoiadores com vontade de ajudar, divulga redes de apoio e abre as portas para mulheres que buscam orientação, espaço seguro e novas oportunidades.
 
-O propósito central da plataforma é servir como uma ponte de empatia e solidariedade, atuando nos seguintes pilares:
+🎯 O que nos move? (Nossos Objetivos)
 
-Acolhimento e Valorização Humana: Estender a mão a quem precisa, oferecendo informação clara sobre projetos sociais de apoio, educação, cidadania e bem-estar.
+A ideia principal do projeto é promover a solidariedade e o fortalecimento feminino de um jeito leve, empático e transparente:
 
-Transparência e Impacto: Apresentar detalhadamente os projetos em andamento, permitindo que a comunidade acompanhe os resultados e saiba onde a sua ajuda é aplicada.
+Acolhimento Feminino: Oferecer um canal humanizado de apoio, divulgando iniciativas focadas em direitos da mulher, desenvolvimento pessoal, capacitação e segurança.
 
-Engajamento e Conexão: Facilitar a participação de novos voluntários e parceiros por meio de formulários de contato acessíveis e integração via QR Code para doações rápidas.
+Conscientização e Autonomia: Criar ferramentas e conteúdos que estimulem a independência, a autoestima e o protagonismo feminino na sociedade.
 
-Promoção da Autonomia: Oferecer recursos e caminhos para que os beneficiários dos programas desenvolvam a sua autoconfiança e sejam protagonistas de suas histórias.
+Transparência Acadêmica: Apresentar como funciona a estrutura de uma ONG sem fins lucrativos, mostrando os projetos desenvolvidos e como a comunidade pode se engajar.
 
-✨ Funcionalidades do Site:
+Facilidade de Contato: Disponibilizar formas simples para quem precisa de ajuda ou deseja atuar como voluntária(o) nessa causa.
 
-Página Inicial (index.html): Apresentação empática da ONG, destaque da missão, visão, valores e chamada para ação (CTA).
+🌟 O que você encontra no site?
 
-Sobre Nós (sobre.html): História da instituição, equipe envolvida, princípios fundamentais e o propósito por trás do projeto.
+Página Inicial (index.html): Onde apresentamos nossa causa, o foco no apoio às mulheres e nossas principais mensagens.
 
-Vitrine de Projetos (projetos.html e páginas individuais):
+Quem Somos (sobre.html): Para conhecer a história do projeto acadêmico, nossos valores e o carinho dedicado a essa causa.
 
-Detalhamento das iniciativas sociais executadas pela ONG (projeto1.html, projeto2.html, projeto3.html).
+Nossos Projetos (projetos.html e páginas individuais):
 
-Informações sobre público-alvo, metas atingidas e como colaborar com cada projeto.
+Páginas detalhadas (projeto1.html, projeto2.html, projeto3.html) apresentando oficinas, rodas de conversa e iniciativas de capacitação para mulheres.
 
-Central de Contato (contato.html): Formulário interativo para envio de mensagens, dúvidas, sugestões ou pedidos de ajuda.
+Fale Conosco (contato.html): Um formulário direto para enviar mensagens, pedir informações ou se voluntariar.
 
-Facilitador de Apoio via QR Code Simulativo: Exibição dinâmica de QR Code (qr-code.jpg) para doações diretas ou acesso rápido via dispositivos móveis.
+Simulação de Doações (qr-code.jpg): Representação visual de QR Code para ilustrar como a ONG arrecadaria recursos para manter os projetos sociais ativos.
 
-Layout Responsivo & Estilização Personalizada (estilos.css): Interface amigável, acessível e adaptada para diferentes tamanhos de tela (mobile e desktop).
+Visual Responsivo (estilos.css): Um visual pensado com carinho, acessível tanto no computador quanto no celular.
 
-Interatividade (script.js): Validações de formulário, animações sutis e melhorias na experiência de navegação do usuário.
+Interações (script.js): Validações do formulário e pequenos efeitos para tornar a navegação mais agradável.
 
 🛠️ Tecnologias Utilizadas
 
-O projeto foi construído utilizando tecnologias fundamentais da Web, garantindo rapidez, acessibilidade e facilidade de manutenção:
+O projeto foi desenvolvido com tecnologias fundamentais da Web:
 
-HTML5: Estruturação semântica e acessível de todas as páginas.
+HTML5: Estruturação semântica de todas as páginas do site.
 
-CSS3: Estilização customizada, layout responsivo, tipografia e identidade visual acolhedora.
+CSS3: Estilização visual, cores e layout responsivo.
 
-JavaScript (ES6+): Scripts dinâmicos para interações na página e validações.
+JavaScript: Validação de dados de formulário e interatividade.
 
-Assets Multimídia: Imagens ilustrativas (imagem1.jpg, imagem2.jpg, imagem3.jpg) e recurso visual via QR Code (qr-code.jpg).
+Mídia: Imagens ilustrativas (imagem1.jpg, imagem2.jpg, etc.) e elementos visuais de apoio.
 
 📁 Estrutura de Arquivos
 
 ONG_SejaForte/
-├── index.html        # Página principal
-├── sobre.html        # História e missão da ONG
-├── projetos.html     # Lista geral de projetos
-├── projeto1.html     # Detalhamento do Projeto 1
-├── projeto2.html     # Detalhamento do Projeto 2
-├── projeto3.html     # Detalhamento do Projeto 3
-├── contato.html      # Página de contato e formulário
-├── estilos.css       # Estilos visuais e responsividade
-├── script.js         # Lógica visual e interatividade JS
-├── imagem1.jpg       # Imagem ilustrativa / projeto
-├── imagem2.jpg       # Imagem ilustrativa / projeto
-├── imagem3.jpg       # Imagem ilustrativa / projeto
-├── qr-code.jpg       # QR Code para doações / contato rápido
-└── README.md         # Documentação do projeto
+├── index.html        # Página inicial / Apresentação da ONG
+├── sobre.html        # História, missão e valores focados nas mulheres
+├── projetos.html     # Visão geral dos projetos sociais
+├── projeto1.html     # Detalhes da iniciativa 1 (ex: Capacitação)
+├── projeto2.html     # Detalhes da iniciativa 2 (ex: Acolhimento)
+├── projeto3.html     # Detalhes da iniciativa 3 (ex: Direitos da Mulher)
+├── contato.html      # Canal para dúvidas, ajuda ou voluntariado
+├── estilos.css       # Estilos visuais e cores do projeto
+├── script.js         # Lógica e validação de formulários
+├── imagem1.jpg       # Imagem ilustrativa
+├── imagem2.jpg       # Imagem ilustrativa
+├── imagem3.jpg       # Imagem ilustrativa
+├── qr-code.jpg       # Demonstração de QR Code para apoio
+└── README.md         # Documentação completa do trabalho acadêmico
+
+
+🚀 Como visualizar o projeto
+Baixe os arquivos do projeto para o seu computador.
+
+Dê um duplo clique no arquivo index.html.
+
+O site abrirá diretamente no seu navegador de preferência.
+
+(Se estiver usando o VS Code, você pode utilizar a extensão Live Server para visualizar tudo em tempo real).
+
+🎓 Trabalho Acadêmico desenvolvido para fins de aprendizado e conscientização social sobre o apoio às mulheres.
