@@ -54,8 +54,8 @@ Como o projeto limita-se estritamente ao ecossistema Front-end (sem dependência
 
 ---
 
-## Fontes e Créditos
+## Fontes
 *   **Identidade Visual:** Paleta baseada em tons de roxo (`#6b46c1`) e rosa (`#d53f8c`) para representar empoderamento e sororidade.
 *   **Imagens utilizadas:** Imagens de caráter ilustrativo obtidas através de busca no Google Imagens e emojis.
 *   **Tipografia:** Família de fontes limpas ('Segoe UI', Tahoma, Verdana).
-*   *Aviso Legal:* Este site é um protótipo estritamente acadêmico. Nenhuma transação financeira real é processada e nenhum dado pessoal preenchido no formulário é armazenado ou transmitido.
+*   *Aviso:* Este site é um protótipo estritamente acadêmico. Nenhuma transação financeira real é processada e nenhum dado pessoal preenchido no formulário é armazenado ou transmitido.
