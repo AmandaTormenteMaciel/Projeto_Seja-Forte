@@ -1,83 +1,61 @@
-💜 ONG Seja Forte — Apoio e Empoderamento Feminino
+# Projeto Integrador - Instituto 💪 Seja Forte e Corajosa 🌻 
 
-"A nossa força vem de cuidar umas das outras. Aqui a gente se junta para acolher, escutar e dar aquela força para que cada mulher possa transformar a sua própria história!"
+Este projeto consiste em um site institucional, responsivo e interativo desenvolvido como parte da Experiência de Aprendizagem da disciplina de **Fundamentos da Web e Desenvolvimento Front-end**.
 
-⚠️ Nota Importante: Este é um projeto acadêmico sem fins lucrativos, desenvolvido com fins educacionais para demonstrar a criação de uma aplicação web completa voltada a causas sociais.
+## 🎯 Objetivo do Projeto
+O **Instituto Seja Forte e Corajosa** é uma Organização Não Governamental (ONG) fictícia criada para o contexto acadêmico. O objetivo do site é divulgar a causa da instituição: o acolhimento, apoio psicológico e capacitação profissional de mulheres em situação de vulnerabilidade social ou vítimas de violência, promovendo sua autonomia financeira e emancipação social.
 
-💡 Sobre o Projeto
+---
 
-A ONG Seja Forte é uma iniciativa fictícia criada no ambiente acadêmico com um propósito especial: apoiar, acolher e empoderar mulheres em situação de vulnerabilidade.
+## 👥 Integrantes da Equipe
+*   Amanda Tormente Maciel - RGM 49825101
+*   Giovanna Malta Vicente - RGM 49711661
+*   Izabely dos Santos - RGM 49631781
+*   Larissa Fujiwara - RGM 49655132
+*   Vivian Cristina Muller Vicente - RGM 49745409
 
-Criamos este site para ser um ponto de encontro simples, bonito e acolhedor. É por aqui que a gente conecta voluntárias e apoiadores com vontade de ajudar, divulga redes de apoio e abre as portas para mulheres que buscam orientação, espaço seguro e novas oportunidades.
+---
 
-🎯 O que nos move? (Nossos Objetivos)
+## Estrutura de Páginas do Site
+O site é composto por 4 páginas HTML interligadas através de um menu de navegação funcional e consistente:
+1.  **Início (`index.html`):** Apresentação da ONG, causa defendida, destaques visuais e mural interativo de depoimentos (Histórias de Impacto).
+2.  **Quem Somos (`sobre.html`):** Contextualização da história da instituição e blocos expansíveis contendo a Missão, Visão e Valores organizacionais.
+3.  **Nossos Projetos (`projetos.html`):** Detalhamento das 3 principais iniciativas ativas (*Mulheres do Amanhã*, *Tecendo o Futuro* e *Transformando Vidas*) e como a comunidade pode contribuir com insumos ou voluntariado.
+4.  **Seja Voluntário(a) (`contato.html`):** Orientações para participação, seção de doações simuladas via PIX e o formulário oficial de cadastro de voluntárias.
 
-A ideia principal do projeto é promover a solidariedade e o fortalecimento feminino de um jeito leve, empático e transparente:
+---
 
-Acolhimento Feminino: Oferecer um canal humanizado de apoio, divulgando iniciativas focadas em direitos da mulher, desenvolvimento pessoal, capacitação e segurança.
+## Funcionalidades JavaScript Implementadas
+Conforme os requisitos obrigatórios da rubrica, foram desenvolvidas exatamente duas frentes de funcionalidades utilizando JavaScript puro (Vanilla JS), em arquivo externo e com registro de eventos via `addEventListener()`:
 
-Conscientização e Autonomia: Criar ferramentas e conteúdos que estimulem a independência, a autoestima e o protagonismo feminino na sociedade.
+### Funcionalidade 1: Validação do Formulário de Contato
+*   **Onde está:** Na página `contato.html`.
+*   **Como funciona:** Escuta o evento de `submit` do formulário, impede o recarregamento padrão com `preventDefault()` e higieniza as entradas removendo espaços extras com `.trim()`. 
+*   **Regras de validação:** 
+    *   Nome (mínimo de 3 caracteres);
+    *   E-mail (verifica preenchimento e formato básico estrutural via `checkValidity()`);
+    *   Assunto (campo obrigatório, não pode ser vazio);
+    *   Mensagem (mínimo de 10 caracteres).
+*   **Retorno visual:** Exibe um alerta estilizado em vermelho no próprio HTML em caso de erro. Se todos os dados forem válidos, exibe um painel verde contendo uma confirmação explícita de que os dados **não foram salvos por se tratar de uma simulação acadêmica**, limpando o formulário em seguida.
 
-Transparência Acadêmica: Apresentar como funciona a estrutura de uma ONG sem fins lucrativos, mostrando os projetos desenvolvidos e como a comunidade pode se engajar.
+### Funcionalidade 2: Interações Adicionais via DOM
+*   **Copiar Chave PIX (Página de Contato):** Ao clicar no botão de doação simulada, o texto e a cor do botão mudam dinamicamente dando um feedback imediato de sucesso ("Chave Pix Copiada com Sucesso!!"). Um temporizador (`setTimeout`) restaura o estado e a cor rosa original do botão após 2 segundos de forma cíclica.
+*   **Expansão de Diretrizes Institucionais (Página Quem Somos):** Botões interativos escondem ou exibem os parágrafos detalhados de Missão, Visão e Valores, alternando as setas indicadoras (▲/▼) e os rótulos de forma repetível.
+*   **Mural de Depoimentos (Página Inicial):** Permite expandir ou recolher histórias extras de impacto na comunidade, garantindo uma interface limpa.
 
-Facilidade de Contato: Disponibilizar formas simples para quem precisa de ajuda ou deseja atuar como voluntária(o) nessa causa.
+---
 
-🌟 O que você encontra no site?
+## Instruções de Execução
+Como o projeto limita-se estritamente ao ecossistema Front-end (sem dependências de banco de dados ou linguagens de backend):
+1.  Baixe e extraia o arquivo `.zip` enviado.
+2.  Navegue até a pasta raiz do projeto.
+3.  Dê um duplo clique no arquivo `index.html` para abri-lo diretamente em qualquer navegador moderno (Chrome, Edge, Firefox, Safari).
+4.  Para testar a responsividade, utilize as ferramentas de desenvolvedor do navegador (F12) e simule resoluções próximas de **390px** (mobile) e **1280px** (desktop).
 
-Página Inicial (index.html): Onde apresentamos nossa causa, o foco no apoio às mulheres e nossas principais mensagens.
+---
 
-Quem Somos (sobre.html): Para conhecer a história do projeto acadêmico, nossos valores e o carinho dedicado a essa causa.
-
-Nossos Projetos (projetos.html e páginas individuais):
-
-Páginas detalhadas (projeto1.html, projeto2.html, projeto3.html) apresentando oficinas, rodas de conversa e iniciativas de capacitação para mulheres.
-
-Fale Conosco (contato.html): Um formulário direto para enviar mensagens, pedir informações ou se voluntariar.
-
-Simulação de Doações (qr-code.jpg): Representação visual de QR Code para ilustrar como a ONG arrecadaria recursos para manter os projetos sociais ativos.
-
-Visual Responsivo (estilos.css): Um visual pensado com carinho, acessível tanto no computador quanto no celular.
-
-Interações (script.js): Validações do formulário e pequenos efeitos para tornar a navegação mais agradável.
-
-🛠️ Tecnologias Utilizadas
-
-O projeto foi desenvolvido com tecnologias fundamentais da Web:
-
-HTML5: Estruturação semântica de todas as páginas do site.
-
-CSS3: Estilização visual, cores e layout responsivo.
-
-JavaScript: Validação de dados de formulário e interatividade.
-
-Mídia: Imagens ilustrativas (imagem1.jpg, imagem2.jpg, etc.) e elementos visuais de apoio.
-
-📁 Estrutura de Arquivos
-
-ONG_SejaForte/
-├── index.html        # Página inicial / Apresentação da ONG
-├── sobre.html        # História, missão e valores focados nas mulheres
-├── projetos.html     # Visão geral dos projetos sociais
-├── projeto1.html     # Detalhes da iniciativa 1 (ex: Capacitação)
-├── projeto2.html     # Detalhes da iniciativa 2 (ex: Acolhimento)
-├── projeto3.html     # Detalhes da iniciativa 3 (ex: Direitos da Mulher)
-├── contato.html      # Canal para dúvidas, ajuda ou voluntariado
-├── estilos.css       # Estilos visuais e cores do projeto
-├── script.js         # Lógica e validação de formulários
-├── imagem1.jpg       # Imagem ilustrativa
-├── imagem2.jpg       # Imagem ilustrativa
-├── imagem3.jpg       # Imagem ilustrativa
-├── qr-code.jpg       # Demonstração de QR Code para apoio
-└── README.md         # Documentação completa do trabalho acadêmico
-
-
-🚀 Como visualizar o projeto
-Baixe os arquivos do projeto para o seu computador.
-
-Dê um duplo clique no arquivo index.html.
-
-O site abrirá diretamente no seu navegador de preferência.
-
-(Se estiver usando o VS Code, você pode utilizar a extensão Live Server para visualizar tudo em tempo real).
-
-🎓 Trabalho Acadêmico desenvolvido para fins de aprendizado e conscientização social sobre o apoio às mulheres.
+## Fontes e Créditos
+*   **Identidade Visual:** Paleta baseada em tons de roxo (`#6b46c1`) e rosa (`#d53f8c`) para representar empoderamento e sororidade.
+*   **Imagens utilizadas:** Imagens de caráter ilustrativo obtidas através de busca no Google Imagens e emojis.
+*   **Tipografia:** Família de fontes limpas ('Segoe UI', Tahoma, Verdana).
+*   *Aviso Legal:* Este site é um protótipo estritamente acadêmico. Nenhuma transação financeira real é processada e nenhum dado pessoal preenchido no formulário é armazenado ou transmitido.
