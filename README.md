@@ -8,11 +8,11 @@ O **Instituto Seja Forte e Corajosa** é uma Organização Não Governamental (O
 ---
 
 ## 👥 Integrantes da Equipe
-*   Amanda Tormente Maciel - RGM 49825101
-*   Giovanna Malta Vicente - RGM 49711661
-*   Izabely dos Santos - RGM 49631781
-*   Larissa Fujiwara - RGM 49655132
-*   Vivian Cristina Muller Vicente - RGM 49745409
+*   Amanda Tormente Maciel
+*   Giovanna Malta Vicente
+*   Izabely dos Santos 
+*   Larissa Fujiwara 
+*   Vivian Cristina Muller Vicente
 
 ---
 
